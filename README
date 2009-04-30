@@ -1,0 +1,15 @@
+This is a collection of managed custom media codecs for Moonlight 2.0
+and Silverlight 3.0 (both not at final release in April 2009 yet.)
+
+There are three codecs so far:
+
+	- Ogg Vorbis, based on csvorbis by Marc Crichton.
+	  http://anonsvn.mono-project.com/viewvc/trunk/csvorbis/
+	- Dirac, based on csdirac by Olivier Dufour.
+	  http://anonsvn.mono-project.com/viewvc/trunk/csdirac/
+	- IMA ADPCM, based on the work by n7shi 
+	  ( http://d.hatena.ne.jp/n7shi/20090329/1238322010 )
+
+For moonlight custom media support details, see:
+http://veritas-vos-liberabit.com/monogatari/2009/03/moonvorbis.html
+

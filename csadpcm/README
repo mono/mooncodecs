@@ -1,0 +1,5 @@
+This is an experimental MediaStreamSource implementation for
+ADPCM (IMA ADPCM so far), based on the work by 7shi:
+http://pastebin.com/f46d44ba6 (might be slightly different from the
+initial version I have received from him).
+

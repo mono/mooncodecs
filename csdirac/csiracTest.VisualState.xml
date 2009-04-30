@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]D:\src\csdirac\csirac\csiracTest.nunit</TopNode>
+  <SelectedNode>[0-1020]D:\src\csdirac\csirac\DiractTest\bin\Release\DiractTest.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]D:\src\csdirac\csirac\csiracTest.nunit" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1020]D:\src\csdirac\csirac\DiractTest\bin\Release\DiractTest.dll">
+          <Nodes>
+            <Node UniqueName="[0-1021]org" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1022]org.diracvideo" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1023]org.diracvideo.Jirac" Expanded="true">
+                      <Nodes>
+                        <Node UniqueName="[0-1024]org.diracvideo.Jirac.Test" Expanded="true">
+                          <Nodes>
+                            <Node UniqueName="[0-1014]org.diracvideo.Jirac.Test.ArithTest" Expanded="true">
+                              <Nodes>
+                                <Node UniqueName="[0-1015]org.diracvideo.Jirac.Test.ArithTest.main" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1001]org.diracvideo.Jirac.Test.DecoderTest" Expanded="true">
+                              <Nodes>
+                                <Node UniqueName="[0-1002]org.diracvideo.Jirac.Test.DecoderTest.main" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1003]org.diracvideo.Jirac.Test.GeneralTest" Expanded="true">
+                              <Nodes>
+                                <Node UniqueName="[0-1009]org.diracvideo.Jirac.Test.GeneralTest.testBlockDimensions" />
+                                <Node UniqueName="[0-1004]org.diracvideo.Jirac.Test.GeneralTest.testColourSpace" />
+                                <Node UniqueName="[0-1008]org.diracvideo.Jirac.Test.GeneralTest.testDivision" />
+                                <Node UniqueName="[0-1007]org.diracvideo.Jirac.Test.GeneralTest.testLevel" />
+                                <Node UniqueName="[0-1005]org.diracvideo.Jirac.Test.GeneralTest.testShift" />
+                                <Node UniqueName="[0-1006]org.diracvideo.Jirac.Test.GeneralTest.testShort" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1016]org.diracvideo.Jirac.Test.UnpackTest" Expanded="true">
+                              <Nodes>
+                                <Node UniqueName="[0-1017]org.diracvideo.Jirac.Test.UnpackTest.bitsLoopTest" />
+                                <Node UniqueName="[0-1019]org.diracvideo.Jirac.Test.UnpackTest.bitsTest" />
+                                <Node UniqueName="[0-1018]org.diracvideo.Jirac.Test.UnpackTest.decodeTest" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1010]org.diracvideo.Jirac.Test.Wavelet2dTest" Expanded="true">
+                              <Nodes>
+                                <Node UniqueName="[0-1012]org.diracvideo.Jirac.Test.Wavelet2dTest.interLeaveTest" />
+                                <Node UniqueName="[0-1011]org.diracvideo.Jirac.Test.Wavelet2dTest.synthesizeTest" />
+                                <Node UniqueName="[0-1013]org.diracvideo.Jirac.Test.Wavelet2dTest.twoDimensionTest" />
+                              </Nodes>
+                            </Node>
+                          </Nodes>
+                        </Node>
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+        <Node UniqueName="[0-1044]D:\src\csdirac\csirac\DiractTest\bin\Release\DiractTest.dll" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1045]org" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1046]org.diracvideo" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1047]org.diracvideo.Jirac" Expanded="true">
+                      <Nodes>
+                        <Node UniqueName="[0-1048]org.diracvideo.Jirac.Test" Expanded="true">
+                          <Nodes>
+                            <Node UniqueName="[0-1038]org.diracvideo.Jirac.Test.ArithTest" Expanded="true">
+                              <Nodes>
+                                <Node UniqueName="[0-1039]org.diracvideo.Jirac.Test.ArithTest.main" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1025]org.diracvideo.Jirac.Test.DecoderTest">
+                              <Nodes>
+                                <Node UniqueName="[0-1026]org.diracvideo.Jirac.Test.DecoderTest.main" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1027]org.diracvideo.Jirac.Test.GeneralTest">
+                              <Nodes>
+                                <Node UniqueName="[0-1033]org.diracvideo.Jirac.Test.GeneralTest.testBlockDimensions" />
+                                <Node UniqueName="[0-1028]org.diracvideo.Jirac.Test.GeneralTest.testColourSpace" />
+                                <Node UniqueName="[0-1032]org.diracvideo.Jirac.Test.GeneralTest.testDivision" />
+                                <Node UniqueName="[0-1031]org.diracvideo.Jirac.Test.GeneralTest.testLevel" />
+                                <Node UniqueName="[0-1029]org.diracvideo.Jirac.Test.GeneralTest.testShift" />
+                                <Node UniqueName="[0-1030]org.diracvideo.Jirac.Test.GeneralTest.testShort" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1040]org.diracvideo.Jirac.Test.UnpackTest">
+                              <Nodes>
+                                <Node UniqueName="[0-1041]org.diracvideo.Jirac.Test.UnpackTest.bitsLoopTest" />
+                                <Node UniqueName="[0-1043]org.diracvideo.Jirac.Test.UnpackTest.bitsTest" />
+                                <Node UniqueName="[0-1042]org.diracvideo.Jirac.Test.UnpackTest.decodeTest" />
+                              </Nodes>
+                            </Node>
+                            <Node UniqueName="[0-1034]org.diracvideo.Jirac.Test.Wavelet2dTest">
+                              <Nodes>
+                                <Node UniqueName="[0-1036]org.diracvideo.Jirac.Test.Wavelet2dTest.interLeaveTest" />
+                                <Node UniqueName="[0-1035]org.diracvideo.Jirac.Test.Wavelet2dTest.synthesizeTest" />
+                                <Node UniqueName="[0-1037]org.diracvideo.Jirac.Test.Wavelet2dTest.twoDimensionTest" />
+                              </Nodes>
+                            </Node>
+                          </Nodes>
+                        </Node>
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

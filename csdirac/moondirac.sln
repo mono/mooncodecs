@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csdirac.moonlight", "csdirac.moonlight.csproj", "{BF0F3B6D-8190-4687-945E-F033A99F4BAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonDirac", "MoonDirac.csproj", "{7A20C4E3-621E-4AF6-97A0-61999AD2E5FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonDiracTest", "MoonDiracTest.csproj", "{38CEA4EC-E07E-4267-8530-04B1D3BDF4C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38CEA4EC-E07E-4267-8530-04B1D3BDF4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CEA4EC-E07E-4267-8530-04B1D3BDF4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CEA4EC-E07E-4267-8530-04B1D3BDF4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CEA4EC-E07E-4267-8530-04B1D3BDF4C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A20C4E3-621E-4AF6-97A0-61999AD2E5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A20C4E3-621E-4AF6-97A0-61999AD2E5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A20C4E3-621E-4AF6-97A0-61999AD2E5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A20C4E3-621E-4AF6-97A0-61999AD2E5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0F3B6D-8190-4687-945E-F033A99F4BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0F3B6D-8190-4687-945E-F033A99F4BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0F3B6D-8190-4687-945E-F033A99F4BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0F3B6D-8190-4687-945E-F033A99F4BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 0.1
+		StartupItem = csdirac.moonlight.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csdirac", "csdirac.csproj", "{9BE09FC4-05EF-450C-9852-708EB91DE326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiractTest", "DiractTest\DiractTest.csproj", "{0D7DF30A-8A9B-4559-9A9F-D34DB6E8FBF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE09FC4-05EF-450C-9852-708EB91DE326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE09FC4-05EF-450C-9852-708EB91DE326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE09FC4-05EF-450C-9852-708EB91DE326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE09FC4-05EF-450C-9852-708EB91DE326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7DF30A-8A9B-4559-9A9F-D34DB6E8FBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7DF30A-8A9B-4559-9A9F-D34DB6E8FBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7DF30A-8A9B-4559-9A9F-D34DB6E8FBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7DF30A-8A9B-4559-9A9F-D34DB6E8FBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

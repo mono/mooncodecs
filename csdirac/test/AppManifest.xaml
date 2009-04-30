@@ -1,0 +1,7 @@
+<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="test" EntryPointType="test.App" RuntimeVersion="2.0.31005.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="DiracStreamSource" Source="DiracStreamSource.dll" />
+    <AssemblyPart x:Name="csdirac" Source="csdirac.dll" />
+    <AssemblyPart x:Name="test" Source="test.dll" />
+  </Deployment.Parts>
+</Deployment>

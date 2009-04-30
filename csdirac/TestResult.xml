@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\src\csdirac\csirac\csiracTest.nunit" total="0" failures="0" not-run="1" date="2009-03-31" time="22:17:00">
+  <environment nunit-version="2.4.8.0" clr-version="2.0.50727.1433" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3, v.5512" platform="Win32NT" cwd="D:\src\csdirac\csirac\DiractTest\bin\Release" machine-name="WINDOWS-EDEA89B" user="Administrateur" user-domain="WINDOWS-EDEA89B" />
+  <culture-info current-culture="fr-FR" current-uiculture="fr-FR" />
+  <test-suite name="D:\src\csdirac\csirac\csiracTest.nunit" success="True" time="0.016" asserts="0">
+    <results>
+      <test-suite name="D:\src\csdirac\csirac\DiractTest\bin\Release\DiractTest.dll" success="True" time="0.016" asserts="0">
+        <results>
+          <test-suite name="org" success="True" time="0.016" asserts="0">
+            <results>
+              <test-suite name="diracvideo" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-suite name="Jirac" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-suite name="Test" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-suite name="ArithTest" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="org.diracvideo.Jirac.Test.ArithTest.main" executed="False">
+                                <reason>
+                                  <message><![CDATA[Method main's signature is not correct: it must be an instance method.]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
