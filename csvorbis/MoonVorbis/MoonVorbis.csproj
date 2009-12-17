@@ -18,6 +18,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <RootNamespace>MoonVorbis</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,7 +59,7 @@
       <Name>csogg.moonlight</Name>
     </ProjectReference>
     <ProjectReference Include="..\csvorbis\csvorbis.moonlight.csproj">
-      <Project>{E4791193-34F3-4AE9-9F84-30F3C155BF67}</Project>
+      <Project>{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}</Project>
       <Name>csvorbis.moonlight</Name>
     </ProjectReference>
   </ItemGroup>
