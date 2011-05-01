@@ -404,8 +404,8 @@ namespace MoonVorbis
 			// <note>This part is mere copy of Mp3MediaStreamSource:
             // Setting a 0 duration to avoid the math to calcualte the Mp3 file length in minutes and seconds.
             // This was done just to simplify this initial version of the code for other people reading it.
-            mediaSourceAttributes[MediaSourceAttributesKeys.Duration] = TimeSpan.FromMinutes(0).Ticks.ToString (CultureInfo.InvariantCulture);
-            mediaSourceAttributes[MediaSourceAttributesKeys.CanSeek] = false.ToString ();
+            mediaSourceAttributes[MediaSourceAttributesKeys.Duration] = this.trackDuration.Ticks.ToString (CultureInfo.InvariantCulture);
+            mediaSourceAttributes[MediaSourceAttributesKeys.CanSeek] = true.ToString ();
 			// </note>
 
 			sample_enumerator = this.DecodeSamples ().GetEnumerator ();
@@ -443,7 +443,7 @@ namespace MoonVorbis
                     buf.Count,
                     timePosition,
                     emptyDict);
-                timePosition += buf.Count * 10000000 / (44100 * 2 * 2);
+                timePosition += (long) buf.Count * 10000000L / (44100L * 2L * 2L);
                 this.ReportGetSampleCompleted(audioSample);
             }
 		}
