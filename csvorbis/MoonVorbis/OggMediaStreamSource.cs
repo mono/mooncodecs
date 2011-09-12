@@ -32,11 +32,13 @@ namespace MoonVorbis
 
     public class OggMediaStreamSource : MediaStreamSource
 	{
+		TimeSpan trackDuration;
+
 		int convsize=4096*2;
 		//byte[] convbuffer=new byte[convsize]; // take 8k out of the data segment, not the stack
 		byte[] convbuffer;
 
-        TextWriter s_err = new DebugWriter(); // Console.Error;
+		TextWriter s_err = new DebugWriter(); // Console.Error;
 		Stream input;
 
 		public OggMediaStreamSource (Stream input)

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonVorbis", "MoonVorbis\MoonVorbis.csproj", "{0312578E-A085-4437-9961-3FDA981EE873}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csogg.moonlight", "csogg\csogg.moonlight.csproj", "{CF53CC22-A7C6-4889-8A8D-07C3862966CF}"
@@ -8,6 +8,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonVorbisTest", "MoonVorbisTest\MoonVorbisTest.csproj", "{D78FC340-443B-4F0C-8ED0-49B9BDFC9988}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csvorbis.moonlight", "csvorbis\csvorbis.moonlight.csproj", "{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csogg.wp7", "csogg\csogg.wp7.csproj", "{97C3C47A-979D-4CBD-A811-7B45A70E562D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csvorbis.wp7", "csvorbis\csvorbis.wp7.csproj", "{ED1B1BBB-E5A5-4DD8-B6A5-C247FE782615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP7Vorbis", "MoonVorbis\WP7Vorbis.csproj", "{307DDA08-A47F-498A-B680-B0F946E30E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP7VorbisTest", "Wp7VorbisTest\WP7VorbisTest.csproj", "{90734433-D9B5-4FD5-B6CA-770230C0EF1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +27,6 @@ Global
 		{0312578E-A085-4437-9961-3FDA981EE873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0312578E-A085-4437-9961-3FDA981EE873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0312578E-A085-4437-9961-3FDA981EE873}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF53CC22-A7C6-4889-8A8D-07C3862966CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF53CC22-A7C6-4889-8A8D-07C3862966CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF53CC22-A7C6-4889-8A8D-07C3862966CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,11 +35,33 @@ Global
 		{D78FC340-443B-4F0C-8ED0-49B9BDFC9988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D78FC340-443B-4F0C-8ED0-49B9BDFC9988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D78FC340-443B-4F0C-8ED0-49B9BDFC9988}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MoonVorbisTest\MoonVorbisTest.csproj
+		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA829F5-E5BB-4FF6-81E6-5976B1C3D177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C3C47A-979D-4CBD-A811-7B45A70E562D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C3C47A-979D-4CBD-A811-7B45A70E562D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C3C47A-979D-4CBD-A811-7B45A70E562D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C3C47A-979D-4CBD-A811-7B45A70E562D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1B1BBB-E5A5-4DD8-B6A5-C247FE782615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1B1BBB-E5A5-4DD8-B6A5-C247FE782615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1B1BBB-E5A5-4DD8-B6A5-C247FE782615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1B1BBB-E5A5-4DD8-B6A5-C247FE782615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{307DDA08-A47F-498A-B680-B0F946E30E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307DDA08-A47F-498A-B680-B0F946E30E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307DDA08-A47F-498A-B680-B0F946E30E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307DDA08-A47F-498A-B680-B0F946E30E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90734433-D9B5-4FD5-B6CA-770230C0EF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90734433-D9B5-4FD5-B6CA-770230C0EF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90734433-D9B5-4FD5-B6CA-770230C0EF1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{90734433-D9B5-4FD5-B6CA-770230C0EF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90734433-D9B5-4FD5-B6CA-770230C0EF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90734433-D9B5-4FD5-B6CA-770230C0EF1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MoonVorbisTest\MoonVorbisTest.csproj
 	EndGlobalSection
 EndGlobal
